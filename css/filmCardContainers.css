@@ -7,6 +7,12 @@
     padding-bottom: 2.5em;
 }
 
+#categorySortedFilms {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+
 #categoriesHeader {
     line-height: 1em;
 }
@@ -14,7 +20,7 @@
 .film-list {
     gap: 0.5em;
     display: grid;
-    grid-auto-rows: 170px;
+    grid-auto-rows: 140px;
     flex-wrap: wrap;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }

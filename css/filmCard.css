@@ -25,6 +25,10 @@
     font-size: 0.8em;
 }
 
+.film-card {
+    max-height: 140px;
+}
+
 .film-details {
     display: flex;
     flex-direction: column;
@@ -58,9 +62,9 @@
 
 .favorite-button {
     position: relative;
-  }
-  
-  .favorite-button::before {
+}
+
+.favorite-button::before {
     content: '';
     position: absolute;
     top: -25px;
@@ -73,20 +77,20 @@
     display: none;
     font-size: 0.7em;
     white-space: nowrap;
-  }
-  
-  .favorite-button:hover::before {
+}
+
+.favorite-button:hover::before {
     display: block;
-  }
-  
-  .favorite-button[data-state="favorited"]::before {
+}
+
+.favorite-button[data-state="favorited"]::before {
     content: 'Remove from your list';
-  }
-  
-  .favorite-button[data-state="unfavorited"]::before {
+}
+
+.favorite-button[data-state="unfavorited"]::before {
     content: 'Add to your list';
-  }
-  
+}
+
 
 .play-button {
     background-color: white !important;
